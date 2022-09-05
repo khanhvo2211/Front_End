@@ -6,96 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
-    <link href='https://css.gg/airplane.css' rel='stylesheet'>
-    <link href='https://css.gg/anchor.css' rel='stylesheet'>
-    <link href='https://css.gg/align-bottom.css' rel='stylesheet'>
+    <link
+      href="/HTML/fontawesome-free-6.2.0-web/css/all.css"
+      rel="stylesheet"
+    />
+    <link href="https://css.gg/anchor.css" rel="stylesheet" />
+    <link href="https://css.gg/align-bottom.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
   </head>
 
   <body>
-    <div class="main">
-      <header id="header">
-        <div id="logo">
+    <header id="header">
+      <nav>
+
+
+        <a href="#about" class="nav-link">About</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#join" class="nav-link">Join</a>
+      </nav>
+      
+      <div class="container">
+        <div class="header-left">
+          <h1>This Awesome Product</h1>
+          <p>
+            "It is certainly a very significant event if not the largest we've
+            seen in the last number of years," Assistant Commissioner of the
+            Royal Canadian Mounted Police Rhonda Blackmore said. Some victims
+            appear to have been targeted, while others are believed to have been
+            attacked randomly, police said.
+          </p>
+          <a
+            class="btn"
+            href="data:image/jpeg;base64,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"
+            >Repo link</a
+          >
+        </div>
+        <div class="header-right">
           <img
-            id="header-img"
-            src="https://yt3.ggpht.com/KNYElmLFGAOSZoBmxYGKKXhGHrT2e7Hmz3WsBerbam5uaDXFADAmT7htj3OcC-uK1O88lC9fQg=s176-c-k-c0x00ffffff-no-rj"
+            src="https://i.9mobi.vn/cf/images/2015/03/nkk/hinh-dep-4.jpg"
             alt=""
           />
         </div>
-        <nav id="nav-bar">
-            <a class="nav-link"><a href="#Feature">Feature</a>
-            <a class="nav-link"><a href="#HowItWorks">How It Works</a>
-            <a class="nav-link"><a href="Pricing">Pricing</a>          
-        </nav>
-      </header>
-      <div class="form">
-        <h2 id="title">Handcrafted, home-made masterpieces</h2>
-        <input type="email" id="form" placeholder="Enter your email address" required>
-        <button id="submit" type="submit">GET STARTED</button>
       </div>
-      <div id="Feature">
-      <div class="card">
-        <div class="icon"><i class="gg-airplane"></i></div>
-        <h2 class="title-card">Premium Materials</h2>
-        <div class="content">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</div>
-      </div>
-      <div class="card">
-        <div class="icon"><i class="gg-anchor"></i></div>
-        <h2 class="title-card"> 
-            Fast Shipping</h2>
-        <div class="content">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</div>
-      </div>
-      <div class="card">
-        <div class="icon"><i class="gg-align-bottom"></i></div>
-        <h2 class="title-card">
-            Quality Assurance</h2>
-        <div class="content">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</div>
-      </div>
-    </div>
-<div id="HowItWorks">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KUOi3gl-D7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+    </header>
+    
+    <section id="features">
+      <h2>Features</h2>
+      <div class="container">
+        <div class="feature">
+          <i class="glyphicon glyphicon-cloud"></i>
+          <h2>Two nuclear inspectors</h2>
 
-<div id="price">
-    <div class="card">
-    <h2>TENOR TROMBONE</h2>
-    <strong>
-        $600</strong>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum dolor.</p>
-        <p>Lorem ipsum.</p>
-        <button id="submit" type="submit">SELECT</button>
-</div>
-<div class="card">
-    <h2>TENOR TROMBONE</h2>
-    <strong>
-        $600</strong>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum dolor.</p>
-        <p>Lorem ipsum.</p>
-        <button id="submit" type="submit">SELECT</button>
-</div>
-<div class="card">
-    <h2>TENOR TROMBONE</h2>
-    <strong>
-        $600</strong>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum.</p>
-        <p>Lorem ipsum dolor.</p>
-        <p>Lorem ipsum.</p>
-        <button id="submit" type="submit">SELECT</button>
-</div>
-</div>
-<footer>
-    <ul>
-        <li><a href="#Feature">  Privacy</a> 
-        </li>
-        <li><a href="#HowItWorks">Terms</a></li>
-        <li><a href="#Pricing">Contact</a></li>
-    </ul>
-    <p>Copyright 2016, Original Trombones</p>
-</footer>
-    </div>
+          <p>
+            Ukraine's state nuclear energy provider said Monday that four of the
+            six members of the International Atomic Energy Agency inspection
+            team still at the Zaporizhzhia nuclear plant have left after
+            completing their work, and that it expected the remaining two would
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa-sharp fa-solid fa-heart"></i>
+          <h2>forces in Kherson</h2>
+
+          <p>
+            The military's Operational Command South said that the air force
+            carried out 21 strikes, while "rocket and artillery units continue
+            to carry out fire missions intensively. Crossings through the Dnipro
+            and Inhulets (rivers) are under close fire control.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fa-sharp fa-solid fa-truck-fast"></i>
+          <h2>Zelensky says three</h2>
+          <p>
+            Ukrainian President Volodymyr Zelensky said on Sunday that two
+            settlements in the south of the country and a settlement in the
+            eastern Donetsk region were liberated. He did not say precisely
+            where the settlements were and provided no timeline except that his
+            military commanders
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="video">
+      <h2>Video</h2>
+      <div class="container">
+        <iframe
+        id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XYsHU3OYTNg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    
+    <section id="join" class="bg-yellow">
+      
+      <div class="container">
+        <form action="">
+        <h2>Handcrafted, home-made masterpieces
+        </h2>
+        <input id="email" type="email" placeholder="Enter your email address" required>
+        <button type="submit" class="btn-ghost">Get Started</button>
+      </form>
+      </div>
+    </section>
+    <footer>
+      Made with <i class="fa-sharp fa-solid fa-heart"></i> by Khanh Vo</i>
+    </footer>
   </body>
 </html>
