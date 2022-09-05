@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">
+          <em>Thank you for taking the time to help us improve the platform</em>
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input
+            class="form-control"
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input
+            class="form-control"
+            type="email"
+            id="email"
+            placeholder="Enter your mail"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age</label>
+          <input
+            class="form-control"
+            type="number"
+            id="number"
+            placeholder="Age"
+            min="1"
+            max="100"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role?</p>
+
+          <select id="dropdown" class="form-control">
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="parent">Parent</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label for="choose">
+            <input
+              type="radio"
+              value="definitely"
+              name="choose"
+              checked
+            />Definitely
+          </label>
+          <label for="choose">
+            <input type="radio" value="maybe" name="choose" checked />Maybe
+          </label>
+          <label for="choose">
+            <input type="radio" value="notsure" name="choose" checked />Notsure
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What is your favorite feature of freeCodeCamp?</p>
+
+          <select id="dropdown" class="form-control">
+            <option disabled selected value>Select an option</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="parent">Parent</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="front">
+            <input
+              type="checkbox"
+              name="check"
+              id="front"
+              value="frontend"
+            />Front-end Projects
+          </label>
+          <label for="back">
+            <input
+              type="checkbox"
+              name="check"
+              id="back"
+              value="backend"
+            />Back-end Projects
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+
+          <textarea
+            name=""
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
