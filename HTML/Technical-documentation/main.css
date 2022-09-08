@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  border: solid;
+  border-color: #4d4e53;
+}
+header {
+  position: fixed;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  border-right: solid;
+}
+nav a {
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  border-top: solid;
+}
+nav h2 {
+  padding: 10px 30px;
+}
+section {
+}
